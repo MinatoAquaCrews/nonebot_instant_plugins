@@ -28,6 +28,10 @@ CRAZY_PATH="./data/crazy_thursday"
 "./data/crazy_thursday"
 ```
 
+## 功能
+
+天天疯狂！随机输出KFC疯狂星期四文案。
+
 ## 命令
 
 1. [疯狂/狂乱]星期[一|二|三|四|五|六|日]；
