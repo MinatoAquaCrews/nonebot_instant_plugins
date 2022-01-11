@@ -1,6 +1,6 @@
 <div align="center">
 
-# Tarot
+# Fortune
 
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable-next-line MD036 -->
