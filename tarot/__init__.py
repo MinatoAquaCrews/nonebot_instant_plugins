@@ -13,7 +13,7 @@ _NICKNAME = nonebot.get_driver().config.nickname
 NICKNAME = list(_NICKNAME)[0]
 TAROT_PATH = str(Path("./data/tarot_card").absolute()) + '/' if not _TAROT_PATH else str(Path(_TAROT_PATH).absolute()) + '/'
 
-tarot = on_command("塔罗牌", aliases={"占卜", "抽卡", "今日运势"}, priority=5, block=True)
+tarot = on_command("塔罗牌", aliases={"占卜"}, priority=5, block=True)
 
 @tarot.handle()
 async def _(bot: Bot, event: Event, state: T_State):
@@ -56,16 +56,14 @@ async def _(bot: Bot, event: Event, state: T_State):
             else:
                 await bot.send_private_msg(user_id=event.user_id, message="".join(msg))
 
-        # TODO 群不启用转发功能
         if isinstance(event, GroupMessageEvent):
-            if CHAIN_REPLY is False:           
-                msg = []
-                msg.extend([meaning_key,"，",meaning_value,"\n",card_key,"，",card_value,"\n",f"[CQ:image,file={image_file}]"])
-                # logger.info(msg)
+            if not CHAIN_REPLY:           
+                text = meaning_key + "，" + meaning_value + "\n" + card_key + "，" + card_value + "\n"
+                msg = massage_reply(image_file, text)
                 if count < 3:
-                    await bot.send(event=event, message="".join(msg), at_sender=True)
+                    await bot.send(event=event, message=msg, at_sender=True)
                 else:
-                    await bot.finish(event=event, message="".join(msg), at_sender=True)
+                    await bot.finish(event=event, message=msg, at_sender=True)
             else:
                 msg = []
                 msg.extend([meaning_key,"，",meaning_value,"\n",card_key,"，",card_value,"\n"])
@@ -90,6 +88,24 @@ async def chain_reply(bot, chain, msg, image):
     }
     chain.append(data)
     return chain
+
+def massage_reply(image_file, text):
+    msg = [
+        {
+            "type": "text",
+            "data": {
+                "text": text
+            }
+        }, 
+        {
+            "type": "image",
+            "data": {
+                "file": f"{image_file}",
+            }
+        }
+    ]
+
+    return msg
 
 cards = {
     "圣杯1": "家庭生活之幸福，别的牌可给予其更多内涵，如宾客来访、宴席、吵架",
