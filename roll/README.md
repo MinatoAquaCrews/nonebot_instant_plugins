@@ -22,6 +22,10 @@ _✨ 扔骰(tóu)子 ✨_
 
 掷骰！扔出指定个数的多面骰子。
 
+## 命令
+
+rd、roll、掷骰 + <x>d<y>
+
 ## 本插件改自Omega-Miya roll点抽奖插件
 
 [Omega Miya](https://github.com/Ailitonia/omega-miya)
