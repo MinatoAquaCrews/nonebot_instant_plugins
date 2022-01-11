@@ -14,7 +14,7 @@ _🔮 塔罗牌 🔮_
 
 1. `git clone`；
 
-2. 将`tarot`文件夹加入你的`bot/plugins`下；
+2. 将`tarot`文件夹加入你的`bot/plugins`下；`resource`内塔罗牌资源放置于`./data/tarot`下；
 
 3. *可选：在`env`内配置`CHAIN_REPLY`、`TAROT_PATH`：
 

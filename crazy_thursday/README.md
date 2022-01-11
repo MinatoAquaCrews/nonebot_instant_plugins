@@ -14,18 +14,12 @@ _✨ 天天疯狂 ✨_
 
 1. `git clone`；
 
-2. 将`crazy_thursday`文件夹加入你的`bot/plugins`下；
+2. 将`crazy_thursday`文件夹加入你的`bot/plugins`下；`resource`内文案资源放置于`./data/crazy_thursday`下；
 
-3. *可选：在`env`内指定读取的文案信息`post.json`：
+3. *可选：在`env`内配置文案信息`post.json`所在路径：
 
 ```python
-CRAZY_PATH="./data/crazy_thursday"
-```
-
-默认读取数据位置：
-
-```
-"./data/crazy_thursday"
+CRAZY_PATH="./data/crazy_thursday"  # 默认读取数据位置 "./data/crazy_thursday"
 ```
 
 ## 功能
