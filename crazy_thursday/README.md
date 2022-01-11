@@ -1,6 +1,6 @@
 <div align="center">
 
-# Crazy Thursday Plugin
+# Crazy Thursday
 
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable-next-line MD036 -->

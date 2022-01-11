@@ -1,6 +1,6 @@
 <div align="center">
 
-# Random Self-mute
+# Roll
 
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable-next-line MD036 -->
