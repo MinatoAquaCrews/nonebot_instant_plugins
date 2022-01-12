@@ -63,7 +63,7 @@ async def _(bot: Bot, event: Event, state: T_State):
                 if count < 3:
                     await bot.send(event=event, message=msg, at_sender=True)
                 else:
-                    await bot.finish(event=event, message=msg, at_sender=True)
+                    await tarot.finish(message=msg, at_sender=True)
             else:
                 msg = []
                 msg.extend([meaning_key,"，",meaning_value,"\n",card_key,"，",card_value,"\n"])
