@@ -32,23 +32,23 @@ nonebot2-2.0.0alpha.16
 
 ⚠ 目前不确定是否适配nonebot2-2.0.0beta.1
 
-## 插件列表(请优先使用独立repo)
+## 插件列表（请优先使用独立repo）
 - 疯狂星期四🍗
 
-:point_right: [nonebot_plugin_crazy_thursday](https://github.com/KafCoppelia/nonebot_plugin_crazy_thursday)
+    :point_right: [nonebot_plugin_crazy_thursday](https://github.com/KafCoppelia/nonebot_plugin_crazy_thursday)
 
 - 今日运势🙏
 
-还有bug
+    还有bug
 
 - 掷骰🎲
 
-:point_right: [nonebot_plugin_roll](https://github.com/KafCoppelia/nonebot_plugin_roll)
+    :point_right: [nonebot_plugin_roll](https://github.com/KafCoppelia/nonebot_plugin_roll)
 
 - 随机口球🥴
 
-难说
+    难说
 
 - 塔罗牌🔮
 
-:point_right: [nonebot_plugin_tarot](https://github.com/KafCoppelia/nonebot_plugin_tarot)
+    :point_right: [nonebot_plugin_tarot](https://github.com/KafCoppelia/nonebot_plugin_tarot)
