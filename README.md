@@ -28,9 +28,7 @@ _🥳 即刻插件 🥳_
 </p>
 
 ## 适配版本
-nonebot2-2.0.0alpha.16
-
-⚠ 目前不确定是否适配nonebot2-2.0.0beta.1
+⚠ 适配与否参考具体插件README
 
 ## 插件列表（请优先使用独立repo）
 - 疯狂星期四🍗
@@ -39,7 +37,7 @@ nonebot2-2.0.0alpha.16
 
 - 今日运势🙏
 
-    还有bug
+    :point_right: [nonebot_plugin_fortune](https://github.com/KafCoppelia/nonebot_plugin_fortune)
 
 - 掷骰🎲
 
