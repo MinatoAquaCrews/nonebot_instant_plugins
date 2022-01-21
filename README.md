@@ -20,7 +20,7 @@ _🥳 即刻插件 🥳_
   </a>
   
   <a href="">
-    <img src="https://img.shields.io/badge/release-v0.1.1-orange">
+    <img src="https://img.shields.io/badge/release-v0.1.0-orange">
   </a>
   
 </p>
@@ -28,9 +28,15 @@ _🥳 即刻插件 🥳_
 </p>
 
 ## 适配版本
-⚠ 适配与否参考具体插件README
+
+⚠ 具体适配版本参考各插件README
+
+## 特色
+
+各插件独立，安装即可，无需过多配置。
 
 ## 插件列表（请优先使用独立repo）
+
 - 疯狂星期四🍗
 
     :point_right: [nonebot_plugin_crazy_thursday](https://github.com/KafCoppelia/nonebot_plugin_crazy_thursday)
@@ -50,3 +56,7 @@ _🥳 即刻插件 🥳_
 - 塔罗牌🔮
 
     :point_right: [nonebot_plugin_tarot](https://github.com/KafCoppelia/nonebot_plugin_tarot)
+
+- 今天吃什么🍔
+
+    :point_right: [nonebot_plugin_what2eat](https://github.com/KafCoppelia/nonebot_plugin_what2eat)
