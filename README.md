@@ -11,16 +11,12 @@ _🚚 即刻插件 🚚_
 
 <p align="center">
   
-  <a href="https://github.com/KafCoppelia/nonebot_instant_plugins/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-informational">
+  <a href="https://github.com/MinatoAquaCrews/nonebot_instant_plugins/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/MinatoAquaCrews/nonebot_instant_plugins?color=blue">
   </a>
   
   <a href="https://github.com/nonebot/nonebot2">
     <img src="https://img.shields.io/badge/nonebot2-2.0.0beta&alpha-green">
-  </a>
-  
-  <a href="">
-    <img src="https://img.shields.io/badge/release-v0.1.0-orange">
   </a>
   
 </p>
@@ -29,7 +25,7 @@ _🚚 即刻插件 🚚_
 
 ## 版本
 
-所列大多数插件均有适配beta.2+ & alpha.16版本，具体参见各插件仓库分支。
+所列大多数插件均有适配beta.2 & alpha.16版本，具体参见各插件仓库分支。
 
 ⚠ alpha版本的功能当然不会比beta版本领先。
 
@@ -80,3 +76,7 @@ _🚚 即刻插件 🚚_
 - 投票口球✋ 开发中……
 
     :point_right: [nonebot_plugin_voteban](https://github.com/MinatoAquaCrews/nonebot_plugin_voteban)
+
+- 随机唐可可🎶
+
+    :point_right: [nonebot_plugin_randomtkk](https://github.com/MinatoAquaCrews/nonebot_plugin_randomtkk)
